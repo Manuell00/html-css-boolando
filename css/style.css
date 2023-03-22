@@ -1,0 +1,50 @@
+/* Regole generali */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Inserisco lo stile per l'header */
+header{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: rgb(251, 125, 7);
+    color: white;  
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+.boolean{
+    height: 30px;
+    width: auto;
+}
+
+/* Inserisco lo stile per il main */
