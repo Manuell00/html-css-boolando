@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Importo il link di font-awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Inserisco il link del css -->
     <title>Zalando</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <!-- header -->
     <header>
@@ -43,10 +47,12 @@
 
             <!-- Inserisco gli articoli -->
 
-            <!-- Inserisco il primo -->
-            <article id="modello1">
-                <img src="img/1.webp" alt="Modello1">
-                
+            <!-- Inserisco il primo articolo -->
+            <article class="modello">
+                <img class="image" src="img/1.webp" alt="Modello1">
+                <img class="cover-image" src="img/1b.webp" alt="Modello1-cover">
+
+
                 <!-- Inserisco le info dell'articolo -->
                 <div class="info">
                     <div class="marca">Levis</div>
@@ -67,8 +73,9 @@
 
 
             <!-- Inserisco il secondo articolo -->
-            <article id="modello2">
-                <img src="img/2.webp" alt="Modello2">
+            <article class="modello">
+                <img class="image" src="img/2.webp" alt="Modello2">
+                <img class="cover-image" src="img/2b.webp" alt="Modello2-cover">
 
                 <!-- Inserisco le inf dell'articolo -->
                 <div class="info">
@@ -89,8 +96,9 @@
 
 
             <!-- Inserisco il terzo articolo -->
-            <article id="modello3">
-                <img src="img/3.webp" alt="Modello3">
+            <article class="modello">
+                <img class="image" src="img/3.webp" alt="Modello3">
+                <img class="cover-image" src="img/3b.webp" alt="Modello3-cover">
 
                 <!-- Inserisco le info dell'articolo -->
                 <div class="info">
@@ -110,14 +118,16 @@
 
             </article>
 
+
+
             <!-- Seconda riga -->
-
             <!-- Inserisco il quarto articolo -->
-            <article id="modello4">
-                <img src="img/4.webp" alt="Modello4">
+            <article class="modello">
+                <img class="image" src="img/4.webp" alt="Modello4">
+                <img class="cover-image" src="img/4b.webp" alt="Modello4-cover">
 
-                 <!-- Inserisco le info dell'articolo -->
-                 <div class="info">
+                <!-- Inserisco le info dell'articolo -->
+                <div class="info">
                     <div class="marca">Levis</div>
                     <div class="nome-articolo">tee unisex</div>
                     <div class="sold-price">14,99 &euro; <span class="real-price">29,99</span> </div>
@@ -131,15 +141,17 @@
 
                 <!-- Inserisco il like -->
                 <div class="heart">&hearts;</div>
-                
+
             </article>
 
-            <!-- Inserisco il quinto articolo -->
-            <article id="modello5">
-                <img src="img/5.webp" alt="Modello5">
 
-                 <!-- Inserisco le info dell'articolo -->
-                 <div class="info">
+            <!-- Inserisco il quinto articolo -->
+            <article class="modello">
+                <img class="image" src="img/5.webp" alt="Modello5">
+                <img class="cover-image" src="img/5b.webp" alt="Modello5-cover">
+
+                <!-- Inserisco le info dell'articolo -->
+                <div class="info">
                     <div class="marca">Maya Deluxe </div>
                     <div class="nome-articolo">strip bodice</div>
                     <div class="sold-price">99,99 &euro;</div>
@@ -147,16 +159,17 @@
 
                 <!-- Inserisco il like -->
                 <div class="heart">&hearts;</div>
-        
+
             </article>
 
 
             <!-- Inserisco il sesto articolo -->
-            <article id="modello6">
-                <img src="img/6.webp" alt="Modello6">
+            <article class="modello">
+                <img class="image" src="img/6.webp" alt="Modello6">
+                <img class="cover-image" src="img/6b.webp" alt="Modello6-cover">
 
-                 <!-- Inserisco le info dell'articolo -->
-                 <div class="info">
+                <!-- Inserisco le info dell'articolo -->
+                <div class="info">
                     <div class="marca">Esprit</div>
                     <div class="nome-articolo">Maglione black</div>
                     <div class="sold-price">29,99 &euro;</div>
@@ -169,28 +182,43 @@
 
                 <!-- Inserisco il like -->
                 <div class="heart">&hearts;</div>
-                
+
             </article>
 
-            
-
-
-
-
-
         </div>
-
-
-
-
     </main>
 
     <!-- Footer -->
     <footer>
+        <!-- Inserisco un footer-container simile al main-container -->
+        <div class="footer-container">
+        <!-- Inserisco il nome dell'azienda -->
+        <div class="azienda">
+            <span>Booleando</span> 
+            <ul class="info-footer">
+                <li><a href="#">Informazioni Legali</a></li>
+                <li><a href="#">Informativa sulla privacy</a></li>
+                <li><a href="#">Diritto di recesso</a></li>
+            </ul>
+        </div>
+
+        <!-- Inserisco i social a piè di pagina -->
+        <div class="social">
+            <span>Trovaci anche su</span>
+            <div>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </div>
 
     </footer>
 
 
-    
+
 </body>
+
 </html>
